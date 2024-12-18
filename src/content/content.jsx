@@ -58,7 +58,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Rafael Agudo Freire",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "rafaelfreireadv.com.br", // Sem "www"
   phone: {
     ddd: "18",
     firstPart: "99104", // Apenas os 5 primeiros números (incluindo o 9)
