@@ -104,7 +104,12 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SANTO ANASTÁCIO E PRESIDENTE VENCESLAU - SP",
+      miniTag: (
+        <p>
+          ADVOGADO EM SANTO ANASTÁCIO E <br className="tablet1:hidden" />
+          PRESIDENTE VENCESLAU - SP
+        </p>
+      ),
       title: (
         <h1 className="mb-[16px]">
           A seriedade
